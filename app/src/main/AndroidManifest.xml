@@ -102,6 +102,10 @@
                         android:scheme="https"
                         android:host="www.wattpad.com"
                         android:pathPrefix="/story/" />
+                <data
+                        android:scheme="https"
+                        android:host="reaperscans.com"
+                        android:pathPrefix="/comics/" />
             </intent-filter>
         </activity>
 
