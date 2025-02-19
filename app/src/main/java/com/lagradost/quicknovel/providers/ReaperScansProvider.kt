@@ -18,7 +18,7 @@ import kotlin.math.roundToInt
 
 class ReaperScansProvider : MainAPI() {
     override val name = "ReaperScans"
-    override val mainUrl = "https://reaperscans.com/comics"
+    override val mainUrl = "https://reaperscans.com"
     override val hasMainPage = true
 
     override val iconId = R.drawable.icon_reaperscans
