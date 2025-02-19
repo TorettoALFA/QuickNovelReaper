@@ -50,7 +50,8 @@ class Apis {
             SakuraNovelProvider(),
             WattpadProvider(),
             WtrLabProvider(),
-            PawReadProver()
+            PawReadProver(),
+            ReaperScansProvider()
         ).sortedBy { it.name }
 
         fun getApiFromName(name: String): APIRepository {
